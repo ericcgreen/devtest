@@ -1,0 +1,22 @@
+{
+  "name": "devtest",
+  "version": "1.0.0",
+  "description": "wide eye creative",
+  "main": "js/bootstrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericcgreen/devtest.git"
+  },
+  "author": "Eric Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericcgreen/devtest/issues"
+  },
+  "homepage": "https://github.com/ericcgreen/devtest#readme",
+  "dependencies": {
+    "less": "^2.7.2"
+  }
+}
