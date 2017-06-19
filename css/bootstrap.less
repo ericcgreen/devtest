@@ -5,17 +5,21 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-image: url("http://darth2017.com/wp-content/themes/darth/assets/img/bg.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
   height: 100vh;
+}
+
+header {
+  background: url("http://darth2017.com/wp-content/themes/darth/assets/img/bg.jpg") bottom right no-repeat;
+  background-size: cover;
+  height: 80vh;
+  padding: 30px 0 40px;
+  width: 100%;
 }
 .container {
   background-color: rgba(0,0,0,0);
   height: auto;
 }
-.footer {
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -30,7 +34,7 @@ body {
   margin: 0 auto;
 }
 .form-signin .form-signin-heading,
-.form-signin, .icons {
+.form-signin, .icons, .sponsor-control {
   margin-bottom: 10px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -60,4 +64,12 @@ body {
 .fa {
   font-size: 30px !important;
   color: white;
+}
+
+.sponsor-control {
+  border: solid 2px grey;
+  border-radius: 5px;
+  height: 50px;
+  width: 300px;
+  margin: auto;
 }
