@@ -9,7 +9,7 @@ body {
   height: 100%;
   background-color: rgba(26,25,29,1);
 }
-
+// Header
 header {
   position: absolute;
   top: 0;
@@ -24,16 +24,7 @@ header {
   background-color: rgba(0,0,0,0);
   height: auto;
 }
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 30%;
-  background-color: rgba(26,25,29,1);
-  margin-top: 20px;
-}
-#signup-container{
+#signup-container {
   position: relative;
   margin: 10em 15em;
   float: left;
@@ -83,7 +74,22 @@ input, #submit-btn {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+#message {
+  color: red;
+  text-align: center;
+}
 
+// Footer
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30%;
+  background-color: rgba(26,25,29,1);
+  margin-top: 20px;
+}
 .fa {
   font-size: 20px !important;
   margin: 7px 12px;
@@ -102,14 +108,13 @@ input, #submit-btn {
   color: white;
   text-decoration: none;
 }
+
+// Modal
 #about-modal-btn {
   border: 2px solid rgba(222,0,79,1);
   border-radius: 50px;
   background: rgba(0,0,0,0) !important;
   margin: 2em auto 3em;
-}
-button:focus, input:focus {
-  outline:0 !important;
 }
 .modal-dialog {
   background: rgba(26,25,29,1);
@@ -121,11 +126,9 @@ button:focus, input:focus {
   border: none;
   color: white;
 }
-#message {
-  color: red;
-  text-align: center;
+button:focus, input:focus {
+  outline:0 !important;
 }
-
 .close:hover, a:hover, i:hover {
   color: red;
   transform: scale(3);
