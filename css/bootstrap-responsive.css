@@ -1,6 +1,6 @@
 /* Large desktop */
 @media (min-width: 1200px) {
-  
+
  }
 
 /* Portrait tablet to landscape and desktop */
@@ -29,4 +29,27 @@
     margin: 0 auto !important;
     text-align: center;
   }
+ }
+
+ /* Retina-ready: CSS for high-resolution devices */
+ @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+ only screen and (-moz-min-device-pixel-ratio: 1.5),
+ only screen and (-o-min-device-pixel-ratio: 3/2),
+ only screen and (min-device-pixel-ratio: 1.5) {
+     header {
+         background-image: url("http://darth2017.com/wp-content/themes/darth/assets/img/bg.jpg");
+         background-size: 750px 382px;
+         background-repeat: no-repeat;
+     }
+ }
+
+ @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+ only screen and (-moz-min-device-pixel-ratio: 1.5),
+ only screen and (-o-min-device-pixel-ratio: 3/2),
+ only screen and (min-device-pixel-ratio: 1.5) {
+     .logo {
+         background-image: url(images/darthlogo.png);
+         background-size: 291px 176px;
+         background-repeat: no-repeat;
+     }
  }
