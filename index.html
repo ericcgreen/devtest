@@ -46,13 +46,14 @@
       <div class="container-fluid">
         <div class="row-fluid">
           <div id="signup-container">
-            <div class="logo"></div>
+            <div class="logo" title="logo" alt="Darth for Galactic Overlord"></div>
             <div class="form">
               <form>
                 <input type="email" id="inputEmail" class="form-control input-lg" placeholder="Email address" required autofocus>
-                <input type="number" id="inputZipcode" class="form-control input-lg" placeholder="Zip code" required>
+                <input type="number" id="inputZipcode" class="form-control input-lg" placeholder="US zip code" min="0" max="99999" required>
                 <button class="btn btn-lg btn-primary btn-block" id="submit-btn" type="submit">Sign up</button>
               </form>
+              <div id="message" class="text-uppercase"></div>
             </div>
           </div>
         </div>
@@ -90,8 +91,8 @@
           <!-- Social Icons -->
           <div class="icons-control">
             <p class="icons">
-              <a class="footer-links" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a class="footer-links" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a class="footer-links" title="Facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a class="footer-links" title="Twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </p>
           </div>
           <div>
