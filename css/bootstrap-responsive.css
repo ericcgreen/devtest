@@ -26,7 +26,7 @@
   }
  }
 
- /* Retina-ready: CSS for high-resolution devices */
+  /*Retina-ready: CSS for high-resolution devices */
  @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
  only screen and (-moz-min-device-pixel-ratio: 1.5),
  only screen and (-o-min-device-pixel-ratio: 3/2),
@@ -35,6 +35,7 @@
          background-image: url("http://darth2017.com/wp-content/themes/darth/assets/img/bg.jpg");
          background-size: 750px 382px;
          background-repeat: no-repeat;
+         background-size: cover;
      }
  }
 
